@@ -198,7 +198,29 @@ async def analyze_lens(
             detail=f"An error occurred during Lens pipeline execution: {str(e)}"
         )
 
-# 3. Map Endpoints
+# 3. Authentication Endpoints
+class LoginRequest(BaseModel):
+    username: str
+    password: str
+
+@app.post("/api/auth/login")
+def login(payload: LoginRequest):
+    if payload.username.strip() == "officer@kavach.gov.in" and payload.password == "kavach2026":
+        return {
+            "status": "success",
+            "token": "kavach_session_token_xyz",
+            "user": {
+                "email": "officer@kavach.gov.in",
+                "role": "Security Officer"
+            }
+        }
+    else:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid username or password."
+        )
+
+# 4. Map Endpoints
 INCIDENTS_CSV_PATH = KAVACH_ROOT / "map" / "sample_data" / "incidents.csv"
 
 # In-memory store for real-time incidents reported during session

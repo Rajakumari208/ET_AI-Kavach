@@ -143,3 +143,25 @@ def test_map_incidents_filter_multiple():
     for item in data:
         assert item["city"].lower() in ["hyderabad", "delhi"]
         assert item["severity"] == "high"
+
+# 4. Authentication Endpoint Tests
+def test_auth_login_success():
+    payload = {
+        "username": "officer@kavach.gov.in",
+        "password": "kavach2026"
+    }
+    response = client.post("/api/auth/login", json=payload)
+    assert response.status_code == 200
+    data = response.json()
+    assert data["status"] == "success"
+    assert "token" in data
+    assert data["user"]["email"] == "officer@kavach.gov.in"
+
+def test_auth_login_failure():
+    payload = {
+        "username": "officer@kavach.gov.in",
+        "password": "wrongpassword"
+    }
+    response = client.post("/api/auth/login", json=payload)
+    assert response.status_code == 401
+    assert "detail" in response.json()
