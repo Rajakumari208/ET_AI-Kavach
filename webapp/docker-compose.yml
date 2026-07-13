@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ..
+      dockerfile: webapp/Dockerfile.backend
+    container_name: kavach_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+    volumes:
+      - backend_static:/app/webapp/backend/static
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: webapp/Dockerfile.frontend
+    container_name: kavach_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    volumes:
+      - backend_static:/usr/share/nginx/html/static
+
+volumes:
+  backend_static:

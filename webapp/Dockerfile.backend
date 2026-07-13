@@ -1,0 +1,28 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Install system dependencies required for OpenCV/OpenStreetMap integrations
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libglib2.0-0 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy python dependency requirements
+COPY requirements.txt ./
+COPY webapp/backend/requirements.txt ./webapp/backend/
+
+# Install requirements
+RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r webapp/backend/requirements.txt
+
+# Copy application files
+COPY guardian/ ./guardian/
+COPY lens/ ./lens/
+COPY map/ ./map/
+COPY webapp/backend/ ./webapp/backend/
+
+EXPOSE 8000
+
+# Run FastAPI app
+WORKDIR /app/webapp/backend
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]

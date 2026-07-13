@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Generated model artifacts
+guardian/classifier/guardian_model.pkl
+
+# Generated logs and certificates (kept out of version control;
+# regenerate by running the scripts - see README)
+guardian/alert_service/alert_log.jsonl
+lens/detection/certificates/
+lens/detection/note_annotated.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Webapp static assets
+webapp/backend/static/uploads/
+webapp/backend/static/heatmaps/
+webapp/backend/static/certificates/
+webapp/backend/.pytest_cache/
+

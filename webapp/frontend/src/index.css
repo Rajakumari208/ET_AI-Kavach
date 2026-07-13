@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbars for a premium dashboard feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a; /* navy-900 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155; /* navy-700 */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #14b8a6; /* teal-500 */
+}
+
+/* Leaflet map styles container */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: #0f172a;
+}

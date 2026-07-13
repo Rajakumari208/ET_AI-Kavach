@@ -1,0 +1,398 @@
+[
+  {
+    "text": "The caller claims to be from CBI and says my Aadhaar is linked to a crime",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "A man says he is a Customs officer and my parcel had illegal items",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "The person on the call says he is from the Enforcement Directorate",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "She introduced herself as a police officer investigating a money laundering case",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "He showed a fake ID card and said he works for the cyber crime cell",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "The caller said he is calling from the Reserve Bank of India fraud division",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "They claimed to be from the income tax department investigating my account",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "A person in uniform appeared on video call claiming to be from the narcotics bureau",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "The caller said he represents the Supreme Court and I am under judicial notice",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "He said he is an officer from the Delhi Police cyber wing",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "I was told not to hang up or tell my family what is happening",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "They said if I disconnect the call a warrant will be issued immediately",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "The caller insisted I stay on video and not leave the room",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "I was warned not to speak to anyone including my spouse about this call",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "They told me to keep my phone camera on at all times during the process",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "The person said contacting a lawyer would make my situation worse",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "I was instructed to move to a private room where no one could hear",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "They said this is a confidential investigation and I cannot discuss it with family",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "The caller said switching off the video even for a second would be treated as evasion",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "I was told any outside contact would be seen as tampering with evidence",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "They said I must transfer money immediately to a verification account",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "The caller demanded I send funds to a government safe account for a few hours",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "I was asked to pay a refundable security deposit to avoid arrest",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "They asked for my UPI details to process a fine right away",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "The person insisted the amount would be refunded after verification is complete",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "I was told to buy gift cards and share the codes to settle the case",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "They asked me to move my fixed deposit into an account they provided",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "The caller wanted me to share OTPs to complete an account verification",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "I was pressured to make a same-day bank transfer to avoid property seizure",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "They said the money would be returned once my name is cleared from the case",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "They said a warrant for my arrest will be issued within the hour",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "The caller said police would arrive at my house in ten minutes if I did not comply",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "I was told my bank account would be frozen within minutes",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "They said this is my last chance before the case is escalated to court",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "The caller insisted the matter had to be resolved before end of day",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "I was told my passport would be cancelled if I did not act immediately",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "They said the investigation team was already on the way to my address",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "The person said delay of even a few minutes would lead to immediate arrest",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "I was warned that my children's passports would also be blocked today",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "They said the court hearing was scheduled for later this evening",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "The caller asked me to remain under digital arrest until the case is closed",
+    "label": "fake_custody_framing"
+  },
+  {
+    "text": "I was told I am now under virtual house arrest and must stay visible on camera",
+    "label": "fake_custody_framing"
+  },
+  {
+    "text": "They said I am legally required to stay on this call until further notice",
+    "label": "fake_custody_framing"
+  },
+  {
+    "text": "The person said I could not leave my house until the verification was complete",
+    "label": "fake_custody_framing"
+  },
+  {
+    "text": "I was told this video call itself counts as my formal custody",
+    "label": "fake_custody_framing"
+  },
+  {
+    "text": "They said I must report my location every hour until the case is resolved",
+    "label": "fake_custody_framing"
+  },
+  {
+    "text": "The caller said I was under surveillance and must not leave the frame",
+    "label": "fake_custody_framing"
+  },
+  {
+    "text": "I was told to consider myself detained even though no one was physically present",
+    "label": "fake_custody_framing"
+  },
+  {
+    "text": "Can you send me the quarterly sales report by tomorrow morning",
+    "label": "benign"
+  },
+  {
+    "text": "Let's catch up for coffee this weekend if you are free",
+    "label": "benign"
+  },
+  {
+    "text": "Your package has been delivered to the front desk",
+    "label": "benign"
+  },
+  {
+    "text": "The meeting has been rescheduled to 3 PM on Thursday",
+    "label": "benign"
+  },
+  {
+    "text": "Happy birthday, hope you have a wonderful day",
+    "label": "benign"
+  },
+  {
+    "text": "Please review the attached document and share your feedback",
+    "label": "benign"
+  },
+  {
+    "text": "The doctor's appointment is confirmed for next Monday at 10 AM",
+    "label": "benign"
+  },
+  {
+    "text": "Thanks for your help with the project, really appreciate it",
+    "label": "benign"
+  },
+  {
+    "text": "Reminder that your electricity bill payment is due next week",
+    "label": "benign"
+  },
+  {
+    "text": "Can we reschedule our call to later this afternoon",
+    "label": "benign"
+  },
+  {
+    "text": "The man on the phone said he was an officer from the airport customs department",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "She claimed to represent the state police economic offences wing",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "The caller flashed a badge on video and said he was from the CBI headquarters",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "He said he was calling on behalf of the Ministry of Home Affairs cyber cell",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "The person said they were a magistrate authorized to question me directly",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "They claimed to be from TRAI investigating my SIM card for fraud",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "The caller said he was an inspector from the anti-narcotics squad",
+    "label": "authority_impersonation"
+  },
+  {
+    "text": "They told me switching off my phone would be treated as absconding",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "I was instructed not to inform even my lawyer about the ongoing call",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "The caller said stepping out of camera view even briefly would violate the order",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "They told me not to answer any other calls until this was resolved",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "I was told this conversation was strictly confidential and could not be recorded",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "The person insisted I not leave the house until further instructions",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "They said involving family members would be considered obstruction",
+    "label": "isolation_tactic"
+  },
+  {
+    "text": "I was asked to deposit money in a temporary RBI holding account",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "They wanted me to purchase cryptocurrency and transfer it to their wallet",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "The caller asked for my net banking password to verify my identity",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "I was told to pay processing charges to close the investigation quickly",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "They asked me to withdraw cash and hand it to a courier for verification",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "The person insisted on a same-day NEFT transfer to clear my name",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "I was asked to share my card CVV to complete a mandatory audit",
+    "label": "illegitimate_payment_request"
+  },
+  {
+    "text": "The caller said my house would be raided within the next thirty minutes",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "I was told the case file would be sealed permanently if I delayed further",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "They said failure to respond in five minutes would trigger an arrest warrant",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "The person insisted my entire family's accounts would be frozen by evening",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "They said officers were already stationed outside my building",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "I was told the court would issue a non-bailable warrant within the hour",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "The caller said this was my only opportunity to avoid immediate detention",
+    "label": "fabricated_urgency"
+  },
+  {
+    "text": "The caller said I was now considered in custody through the video call itself",
+    "label": "fake_custody_framing"
+  },
+  {
+    "text": "I was told my movements were being tracked as part of the digital arrest",
+    "label": "fake_custody_framing"
+  },
+  {
+    "text": "They said I had to remain visible on screen as a condition of my release",
+    "label": "fake_custody_framing"
+  },
+  {
+    "text": "The person said leaving the call would count as escaping custody",
+    "label": "fake_custody_framing"
+  },
+  {
+    "text": "I was instructed to treat the video call as equivalent to a police station visit",
+    "label": "fake_custody_framing"
+  },
+  {
+    "text": "They said this remote arrest procedure was now standard under a new rule",
+    "label": "fake_custody_framing"
+  },
+  {
+    "text": "Can we move our weekly team sync to Friday instead of Thursday",
+    "label": "benign"
+  },
+  {
+    "text": "The new office Wi-Fi password has been updated, check your email",
+    "label": "benign"
+  },
+  {
+    "text": "Looking forward to the family trip next month",
+    "label": "benign"
+  },
+  {
+    "text": "Your food delivery is arriving in approximately fifteen minutes",
+    "label": "benign"
+  },
+  {
+    "text": "Please find attached the notes from today's class",
+    "label": "benign"
+  },
+  {
+    "text": "The gym is offering a discount on annual memberships this week",
+    "label": "benign"
+  },
+  {
+    "text": "Let me know if you want to carpool to the event tomorrow",
+    "label": "benign"
+  }
+]
